@@ -2,7 +2,6 @@ const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysocket
 const pino = require("pino");
 const fs = require("fs");
 const config = require("./config");
-require("./server");
 
 async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState("session");
