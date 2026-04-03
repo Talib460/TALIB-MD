@@ -5,7 +5,7 @@ import P from "pino";
 import qrcode from "qrcode-terminal";
 
 // Bot configuration
-const BOT_NAME = "🍷𓆩𝐓𝐚𝐥𝐢𝐛 ​᭄𝐌𝐃🚩";
+const BOT_NAME = "TALIB-MD";
 const OWNER_NUMBER = "923431798985";
 
 // Main function
